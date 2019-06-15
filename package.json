@@ -4,7 +4,7 @@
   "description": "Trying Jest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,9 @@
   },
   "homepage": "https://github.com/Crimiro/platzi-jest-course#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "babel-jest": "^24.8.0",
-    "babel-polyfill": "^6.26.0",
     "jest": "^24.8.0"
   }
 }
