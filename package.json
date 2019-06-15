@@ -1,0 +1,29 @@
+{
+  "name": "platzi-jest-course",
+  "version": "1.0.0",
+  "description": "Trying Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crimiro/platzi-jest-course.git"
+  },
+  "keywords": [
+    "jest",
+    "pruebas",
+    "unitarias"
+  ],
+  "author": "Christian Michael Rosales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Crimiro/platzi-jest-course/issues"
+  },
+  "homepage": "https://github.com/Crimiro/platzi-jest-course#readme",
+  "devDependencies": {
+    "babel-jest": "^24.8.0",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^24.8.0"
+  }
+}
