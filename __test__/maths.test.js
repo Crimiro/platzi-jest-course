@@ -8,9 +8,9 @@ describe('Cálculos matematicos', () => {
     expect(multiplicar(2,2)).toBe(4);
   });
   test('Resta', () => {
-    expect(restar(2,2)).toBe(1);
+    expect(restar(2,2)).toBe(0);
   });
   test('Dividir', () => {
-    expect(dividir(2,2)).toBe(2);
+    expect(dividir(2,2)).toBe(1);
   });
 });

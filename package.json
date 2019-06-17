@@ -4,7 +4,9 @@
   "description": "Trying Jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -23,8 +25,13 @@
   "homepage": "https://github.com/Crimiro/platzi-jest-course#readme",
   "devDependencies": {
     "@babel/core": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
+    "@types/jest": "^24.0.15",
     "babel-jest": "^24.8.0",
     "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
   }
 }
